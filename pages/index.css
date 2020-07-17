@@ -1,0 +1,30 @@
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/places/places.css);
+@import url(../fonts/fonts.css);
+@import url(../vendor/normalize.css);
+.root{
+  width: 1280px;
+  margin: auto;
+  background-color: #2A2C2F;
+  text-rendering: optimizeLegibility;
+}
+@media screen and (max-width: 1024px){
+  .root{
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 768px){
+  .root{
+    max-width: 768px;
+  }
+}
+@media screen and (max-width: 320px){
+  .root{
+    max-width: 320px;
+  }
+}

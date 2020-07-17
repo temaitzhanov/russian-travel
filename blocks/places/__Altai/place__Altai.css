@@ -1,0 +1,32 @@
+.place__Altai{
+  max-width: 984px;
+  max-height: 584px;
+  margin-bottom: 80px; /*Отступы между блоками*/
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+  "title url"
+  "img prgrph"
+}
+@media screen and (max-width: 1024px){
+  .place__Altai{
+    max-width: 928px;
+    max-height: 564px;
+  }
+}
+@media screen and (max-width: 768px){
+  .place__Altai{
+    max-width: 720px;
+    max-height: 482px;
+    margin-bottom: 72px;
+  }
+}
+@media screen and (max-width: 320px){
+  .place__Altai{
+    max-width: 320px;
+    max-height: 911px;
+    margin-bottom: 48px;
+    display: block;
+  }
+}

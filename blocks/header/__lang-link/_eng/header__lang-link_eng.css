@@ -1,0 +1,10 @@
+.header__lang-link_eng{
+  width: 29px;
+  color: #FFF;
+  text-decoration: none;
+}
+@media screen and (max-width: 320px){
+.header__lang-link_eng{
+  width: 22px;
+}
+}

@@ -1,0 +1,22 @@
+.paragraph__wrap{
+  grid-area: prgrph;
+  margin: 0;
+}
+@media screen and (max-width: 1024px){
+  .paragraph__wrap{
+    max-width: 456px;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 768px){
+  .paragraph__wrap{
+    max-width: 352px;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 320px){
+  .paragraph__wrap{
+    max-width: 288px;
+    margin: 0px 16px 0px 16px;
+   }
+}
