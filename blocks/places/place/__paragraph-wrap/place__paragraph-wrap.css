@@ -17,6 +17,5 @@
 @media screen and (max-width: 320px){
   .place__paragraph-wrap{
     max-width: 288px;
-    margin: 0px 16px 0px 16px;
    }
 }
