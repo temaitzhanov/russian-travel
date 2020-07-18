@@ -8,8 +8,14 @@
   color: #FFF;
   line-height: 16px;
 }
+@media screen and (min-width: 321px) and (max-width: 668px){
+  .footer__copyright{
+    margin: 15px 0px 0px;
+  }
+}
 @media screen and (max-width: 320px){
   .footer__copyright{
     line-height: 14px;
+    margin: 0px 0px 0px 16px;
   }
 }

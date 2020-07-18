@@ -3,29 +3,34 @@
 
 .footer{
   max-width: 1184px;
-  margin: auto;
-  margin-top: 92px;
+  margin: 92px auto 0px;
   padding-bottom: 24px;
   display: flex;
   justify-content: space-between;
   position: relative;
 }
-@media screen and (max-width: 1024px){
+@media screen and (min-width: 1024px) and (max-width: 1280px){
   .footer{
-    max-width: 928px;
+    width: 100%;
   }
 }
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 1023px){
   .footer{
-    max-width: 720px;
-    margin-top: 88px;
+    width: 100%;
+    margin: 88px auto 0px;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 767px){
+  .footer{
+  width: 100%;
+  flex-direction: column;
   }
 }
 @media screen and (max-width: 320px){
   .footer{
-    max-width: 186px;
-    margin: 64px 0px 0px 16px;
-    height: 310px;
+    width: 100%;
+    margin: 64px auto 0px;
+    padding-bottom: 16px;
     flex-direction: column;
   }
 }
