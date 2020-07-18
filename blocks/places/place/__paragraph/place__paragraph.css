@@ -1,4 +1,5 @@
 .place__paragraph{
+  max-width: 484px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -7,14 +8,20 @@
   color: #FFF;
   margin: 0;
   margin-bottom: 24px; /*Отступ между праграфами*/
-  margin-top: 48px; /*Отступ от параграфа до обертки(url + ссылка)*/
 }
 .place__paragraph:nth-child(2n){
   margin-bottom: 0;
-  margin-top: 0;
+}
+@media screen and (max-width: 1024px){
+  .place__paragraph{
+    max-width: 456px;
+    width: 100%;
+  }
+
 }
 @media screen and (max-width: 768px){
   .place__paragraph{
+    max-width: 352px;
     font-size: 16px;
     line-height: 26px;
     color: #FFF;
@@ -23,8 +30,6 @@
 }
 @media screen and (max-width: 320px){
   .place__paragraph{
-    font-size: 16px;
-    line-height: 26px;
-    margin: 32px 0px 24px 0px;
+   margin: 32px 0px 24px 0px;
   }
 }

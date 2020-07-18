@@ -9,12 +9,12 @@
   font-weight: bold;
 }
 @font-face{
-  src: url(./Inter-ExtraLight.woff);
+  src: url(./Inter-Regular.woff);
   font-family: 'Inter';
   font-weight: normal;
 }
 @font-face{
-  src: url(./Inter-ExtraLight.woff2);
+  src: url(./Inter-Regular.woff2);
   font-family: 'Inter';
   font-weight: normal;
 }

@@ -1,34 +1,27 @@
-@import url(../places/__Altai/place__Altai.css);
-@import url(../places/__Baikal/place__Baikal.css);
-@import url(../places/__image/place__image.css);
-@import url(../places/__Kereliya/place__Kereliya.css);
-@import url(../places/__Kolskyi/place__Kolskyi.css);
-@import url(../places/__Kurskaya-cosa/__Kurskoya-cosa.css);
-@import url(../places/__link/place__link.css);
-@import url(../places/__paragraph/place__paragraph.css);
-@import url(../places/__title/place__title.css);
-@import url(../places/__url-heading/place__url-heading.css);
-@import url(../places/__website/place__website.css);
-@import url(../places/__wrap/paragraph__wrap.css);
+@import url(../places/place/place.css);
 
 .places{
-  width: 984px;
+  max-width: 984px;
   margin: auto;
-  margin-top: 92px; /*Отступ между секциями*/
+  margin: 92px auto 92px; /*Отступ между секциями*/
 }
 @media screen and (max-width: 1024px){
   .places{
-    width: 928px;
+    max-width: 928px;
+    width: 100%;
   }
 }
 @media screen and (max-width: 768px){
   .places{
-    width: 720px;
+    max-width: 720px;
+    width: 100%;
+    margin: 88px auto 88px;
   }
 }
 @media screen and (max-width: 320px){
   .places{
-    width: 320px;
-    margin-top: 64px;
+    max-width: 320px;
+    width: 100%;
+    margin: 64px auto 64px;
   }
 }

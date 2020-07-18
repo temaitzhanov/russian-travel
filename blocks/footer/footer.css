@@ -1,7 +1,5 @@
 @import url(../footer/__copyright/footer__copyright.css);
-@import url(../footer/__link-list/footer__link-list.css);
-@import url(../footer/__link/footer__link.css);
-@import url(../footer/__links/footer__links.css);
+@import url(../footer/__menu/footer__menu.css);
 
 .footer{
   max-width: 1184px;
@@ -28,7 +26,6 @@
     max-width: 186px;
     margin: 64px 0px 0px 16px;
     height: 310px;
-    display: flex;
     flex-direction: column;
   }
 }

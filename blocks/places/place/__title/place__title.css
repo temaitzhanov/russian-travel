@@ -1,19 +1,18 @@
 .place__title{
   max-width: 460px;
-  margin: 0;
-  padding: 0;
+  width: 100%;
+  margin: 0px 43px 60px 0px;
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
   color: #FFF;
-  grid-area: title;
-  align-self: end;
  }
  @media screen and (max-width: 1024px){
   .place__title{
     max-width: 440px;
+    width: 100%;
   }
  }
  @media screen and (max-width: 768px){
@@ -26,6 +25,7 @@
  @media screen and (max-width: 320px){
   .place__title{
     max-width: 288px;
+    width: 100%;
     font-size: 32px;
     line-height: 35px;
     margin: 0px 16px 0px 16px;
