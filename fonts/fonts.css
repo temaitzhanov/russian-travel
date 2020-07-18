@@ -19,12 +19,12 @@
   font-weight: normal;
 }
 @font-face{
-  src: url(./Inter-ExtraBold.woff);
-  font-family: 'Italic';
+  src: url(./Inter-Black.woff);
+  font-family: 'Inter';
   font-weight: 900;
 }
 @font-face{
-  src: url(./Inter-ExtraBold.woff2);
+  src: url(./Inter-Black.woff2);
   font-family: 'Inter';
   font-weight: 900;
 }
@@ -38,4 +38,14 @@
   src: url(./Inter-Medium.woff2);
   font-family: 'Inter';
   font-weight: 700;
+}
+@font-face{
+  src: url(./Inter-ExtraLight.woff);
+  font-family: 'Inter';
+  font-style: normal;
+}
+@font-face{
+  src: url(./Inter-ExtraLight.woff2);
+  font-family: 'Inter';
+  font-style: normal;
 }
