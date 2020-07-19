@@ -19,7 +19,12 @@
       margin-right: 28px;
     }
   }
-  @media screen and (min-width: 320px) and (max-width: 767px){
+  @media screen and (min-width:556px) and (max-width:767px){
+    .place__image{
+    margin-right: 28px;
+    }
+  }
+  @media screen and (min-width: 320px) and (max-width: 555px){
     .place__image{
       width: 320px;
       height: 320px;

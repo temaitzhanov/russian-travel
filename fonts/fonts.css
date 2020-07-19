@@ -1,12 +1,14 @@
 @font-face{
   src: url(./Inter-Bold.woff);
   font-family: 'Inter';
-  font-weight: bold;
+  font-weight: 600;
+  font-style: normal;
 }
 @font-face{
   src: url(./Inter-Bold.woff2);
   font-family: 'Inter';
-  font-weight: bold;
+  font-weight: 600;
+  font-style: normal;
 }
 @font-face{
   src: url(./Inter-Regular.woff);
@@ -22,13 +24,15 @@
   src: url(./Inter-Black.woff);
   font-family: 'Inter';
   font-weight: 900;
+  font-style: normal;
 }
 @font-face{
   src: url(./Inter-Black.woff2);
   font-family: 'Inter';
   font-weight: 900;
+  font-style: normal;
 }
-@font-face{
+/*@font-face{
   src: url(./Inter-Medium.woff);
   font-family: 'Inter';
   font-weight: 700;
@@ -38,14 +42,16 @@
   src: url(./Inter-Medium.woff2);
   font-family: 'Inter';
   font-weight: 700;
-}
+}*/
 @font-face{
   src: url(./Inter-ExtraLight.woff);
   font-family: 'Inter';
+  font-weight: normal;
   font-style: normal;
 }
 @font-face{
   src: url(./Inter-ExtraLight.woff2);
   font-family: 'Inter';
+  font-weight: normal;
   font-style: normal;
 }

@@ -1,3 +1,7 @@
 .header__lang{
   list-style: none;
+  margin-right: 18px;
+}
+.header__link:nth-child(2){
+  margin-right: 0;
 }

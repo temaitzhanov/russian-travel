@@ -14,19 +14,16 @@
 @media screen and (max-width: 1024px){
   .header{
     max-width: 928px;
-    max-height: 52px;
   }
 }
 @media screen and (max-width: 768px){
   .header{
     max-width: 720px;
-    max-height: 52px;
   }
 }
 @media screen and (max-width: 320px){
   .header{
     max-width: 288px;
-    max-height: 42px;
     padding-top: 16px;
   }
 }

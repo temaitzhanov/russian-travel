@@ -6,6 +6,7 @@
   line-height: 20px;
   color: #FFFFFF;
   max-width: 383px;
+  list-style: none;
 }
 @media screen and (max-width: 320px){
   .intro__list-text{
