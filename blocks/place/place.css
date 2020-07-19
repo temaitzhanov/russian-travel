@@ -7,10 +7,15 @@
 @import url(../place/__website/place__website.css);
 .place{
   max-width: 984px;
-  margin-bottom: 80px; /*Отступы между блоками*/
+  margin: 0px 0px 80px 0px; /*Отступы между блоками*/
   display: flex;
   flex-wrap: wrap;
 
+}
+@media screen and (max-width: 1280px){
+  .place{
+  width: 100%;
+  }
 }
 @media screen and (max-width: 1024px){
   .place{
@@ -20,13 +25,18 @@
 @media screen and (max-width: 768px){
   .place{
     max-width: 720px;
-    margin-bottom: 72px;
+    margin: 0px auto 72px;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 767px){
+  .place{
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 320px){
   .place{
     max-width: 320px;
-    margin-bottom: 48px;
+    margin: 0px auto 48px;
     display: block;
   }
 }

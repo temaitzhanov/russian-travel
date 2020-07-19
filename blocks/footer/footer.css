@@ -1,5 +1,7 @@
 @import url(../footer/__copyright/footer__copyright.css);
-@import url(../footer/__menu/footer__menu.css);
+@import url(../footer/__links/footer__links.css);
+@import url(../footer/__link-list/footer__link-list.css);
+@import url(../footer/__link/footer__link.css);
 
 .footer{
   max-width: 1184px;

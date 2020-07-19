@@ -8,8 +8,4 @@
 @import url(../blocks/places/places.css);
 @import url(../fonts/fonts.css);
 @import url(../vendor/normalize.css);
-.root{
-  margin: 0;
-  background-color: #2A2C2F;
-  text-rendering: optimizeLegibility;
-}
+@import url(../blocks/root/root.css);
