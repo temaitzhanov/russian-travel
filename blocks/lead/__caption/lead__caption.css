@@ -12,6 +12,11 @@
   text-transform: uppercase;
   color: #FFF;
 }
+@media screen and (min-width: 769px) and (max-width: 1023px){
+  .lead__caption{
+    margin-left: 32px;
+  }
+}
 @media screen and (max-width: 768px){
   .lead__caption{
     margin-left: 24px;
