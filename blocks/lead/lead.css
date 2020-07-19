@@ -17,6 +17,12 @@
 .lead{
   max-width: 768px;
 }
+@media screen and (min-width: 321px) and (max-width: 767px){
+  .lead{
+  max-width: 320px;
+  margin:  54px auto 0px;
+  }
+}
 }
 @media screen and (max-width: 320px){
   .lead{
