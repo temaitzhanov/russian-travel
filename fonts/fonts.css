@@ -6,21 +6,21 @@
   font-style: normal;
 }
 @font-face{
-  src: url(./Inter-Regular.woff),
-       url(./Inter-Regular.woff2);
+  src: url(./Inter-Regular.woff) format('woff'),
+       url(./Inter-Regular.woff2) format('wof2');
   font-family: 'Inter';
   font-weight: normal;
 }
 @font-face{
-  src: url(./Inter-Black.woff),
-       url(./Inter-Black.woff2);
+  src: url(./Inter-Black.woff) format('woff'),
+       url(./Inter-Black.woff2) format('wof2');
   font-family: 'Inter';
   font-weight: 900;
   font-style: normal;
 }
 @font-face{
-  src: url(./Inter-ExtraLight.woff),
-       url(./Inter-ExtraLight.woff2);
+  src: url(./Inter-ExtraLight.woff) format('woff'),
+       url(./Inter-ExtraLight.woff2) format('wof2');
   font-family: 'Inter';
   font-weight: normal;
   font-style: normal;
