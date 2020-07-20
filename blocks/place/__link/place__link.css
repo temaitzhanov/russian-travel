@@ -7,3 +7,7 @@
   text-decoration: underline;
   color: #FFF;
 }
+.place__link:hover{
+  opacity: .8;
+  transition: .5s ease;
+}

@@ -19,7 +19,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url(./Inter-ExtraLight.woff) format('woff'),
-       url(./Inter-ExtraLight.woff2) format('woff2');
+  src: url(./Inter-Regular.woff) format('woff'),
+       url(./Inter-Regular.woff2) format('woff2');
 }
 
