@@ -3,6 +3,7 @@
 @import url(../header/__lang/header__lang.css);
 @import url(../header/__logo/header__logo.css);
 @import url(../header/__link/_active/header__llink_active.css);
+@import url(../header/___popup-open/header__popup-open.css);
 
 .header{
   max-width: 1184px;

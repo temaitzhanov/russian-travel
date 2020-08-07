@@ -1,0 +1,32 @@
+.popup__close{
+  /*position: absolute;
+    cursor: pointer;
+    float: right;
+  width: 45px;
+  height: 45px;*/
+  outline: none;
+  background: none;
+  border: none;
+  top: 20px;
+  right: 50px;
+}
+.popup__close:before,
+.popup__close:after {
+    content: "";
+    position: absolute;
+    top: 21px;
+    right: 10px;
+    width: 32px;
+    height: 2px;
+    background: #555;
+}
+
+.popup__close:before {
+    webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.popup__close:after {
+    webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
